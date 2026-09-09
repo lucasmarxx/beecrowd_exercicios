@@ -13,6 +13,6 @@ qtd_itens = int(input('digite a quantidade de itens comprados: '))
 
 total_a_pagar = qtd_itens * pecas[codigo]
 
-print(pecas[1])
+print(pecas[codigo])
 
 print(f'Valor total a pagar: R${total_a_pagar:.2f}')
