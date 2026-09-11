@@ -3,8 +3,8 @@ for i, (lanche, valor) in enumerate(lanches):
     print(f'{i+1}: {lanche}, R$ {valor:.2f}')
 
 print('Digite o código do lanche e a quantidade desejada.')
+
 entrada = input().split()
-precos = [4, 4.5, 5, 2, 1.5]
 
 codigo = int(entrada[0])
 quantidade = int(entrada[1])
