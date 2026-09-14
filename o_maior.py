@@ -1,11 +1,8 @@
-# entrada = input().split()
-
+entrada = list(map(int,input().split()))
+a, b, c = entrada
 #fazer depois
 
-a = 1
-b = 2
-abc = 3
+calculo = (a + b + abs(a - b)) // 2
+calculo_2 = (calculo + c + abs(calculo - c)) // 2
 
-calculo = (a + b + abc * (a - b)) / 2
-
-print(calculo)
+print(calculo_2)
